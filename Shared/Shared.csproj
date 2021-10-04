@@ -13,6 +13,12 @@
     <None Remove="Entities\Abstract\" />
     <None Remove="Entities\ComplexTypes\" />
     <None Remove="Entities\Concrete\" />
+    <None Remove="Utilities\Exceptions\" />
+    <None Remove="Utilities\Generators\" />
+    <None Remove="Utilities\Hashing\" />
+    <None Remove="Utilities\Results\" />
+    <None Remove="Utilities\Security\" />
+    <None Remove="Utilities\Validation\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.IdentityModel.Tokens" Version="6.12.2" />
@@ -25,5 +31,11 @@
     <Folder Include="Entities\Abstract\" />
     <Folder Include="Entities\ComplexTypes\" />
     <Folder Include="Entities\Concrete\" />
+    <Folder Include="Utilities\Exceptions\" />
+    <Folder Include="Utilities\Generators\" />
+    <Folder Include="Utilities\Hashing\" />
+    <Folder Include="Utilities\Results\" />
+    <Folder Include="Utilities\Security\" />
+    <Folder Include="Utilities\Validation\" />
   </ItemGroup>
 </Project>
