@@ -8,12 +8,16 @@ namespace Shared.Utilities.Results.Concrete
     {
         public ApiResult(ResultStatus resultStatus,string message,HttpStatusCode httpStatusCode,string href)
         {
-
+            ResultStatus = resultStatus;
+            Message = message;
+            HttpStatusCode = httpStatusCode;
+            Href = href;
         }
         public ApiResult()
         {
 
         }
+
         public ResultStatus ResultStatus { get; set; }
         public string Message { get; set; }
         public HttpStatusCode HttpStatusCode { get; set; }
