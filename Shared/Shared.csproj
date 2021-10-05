@@ -24,6 +24,8 @@
     <None Remove="Utilities\Results\ComplexTypes\" />
     <None Remove="Utilities\Validation\FluentValidation\" />
     <None Remove="FluentValidation" />
+    <None Remove="Utilities\Security\Encryption\" />
+    <None Remove="Utilities\Security\Jwt\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.IdentityModel.Tokens" Version="6.12.2" />
@@ -47,5 +49,7 @@
     <Folder Include="Utilities\Results\Concrete\" />
     <Folder Include="Utilities\Results\ComplexTypes\" />
     <Folder Include="Utilities\Validation\FluentValidation\" />
+    <Folder Include="Utilities\Security\Encryption\" />
+    <Folder Include="Utilities\Security\Jwt\" />
   </ItemGroup>
 </Project>
