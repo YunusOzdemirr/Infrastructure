@@ -19,6 +19,9 @@
     <None Remove="Utilities\Results\" />
     <None Remove="Utilities\Security\" />
     <None Remove="Utilities\Validation\" />
+    <None Remove="Utilities\Results\Abstract\" />
+    <None Remove="Utilities\Results\Concrete\" />
+    <None Remove="Utilities\Results\ComplexTypes\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.IdentityModel.Tokens" Version="6.12.2" />
@@ -37,5 +40,8 @@
     <Folder Include="Utilities\Results\" />
     <Folder Include="Utilities\Security\" />
     <Folder Include="Utilities\Validation\" />
+    <Folder Include="Utilities\Results\Abstract\" />
+    <Folder Include="Utilities\Results\Concrete\" />
+    <Folder Include="Utilities\Results\ComplexTypes\" />
   </ItemGroup>
 </Project>
