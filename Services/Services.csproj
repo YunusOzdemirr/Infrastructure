@@ -7,6 +7,7 @@
   <ItemGroup>
     <ProjectReference Include="..\Entities\Entities.csproj" />
     <ProjectReference Include="..\Shared\Shared.csproj" />
+    <ProjectReference Include="..\Data\Data.csproj" />
   </ItemGroup>
   <ItemGroup>
     <None Remove="FluentValidation" />
@@ -16,6 +17,11 @@
     <None Remove="AutoMapper" />
     <None Remove="MailKit" />
     <None Remove="MimeKit" />
+    <None Remove="Abstract\" />
+    <None Remove="AutoMapper\" />
+    <None Remove="Concrete\" />
+    <None Remove="Extensions\" />
+    <None Remove="Utilities\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="FluentValidation" Version="10.3.3" />
@@ -25,5 +31,12 @@
     <PackageReference Include="AutoMapper" Version="10.1.1" />
     <PackageReference Include="MailKit" Version="2.15.0" />
     <PackageReference Include="MimeKit" Version="2.15.1" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Abstract\" />
+    <Folder Include="AutoMapper\" />
+    <Folder Include="Concrete\" />
+    <Folder Include="Extensions\" />
+    <Folder Include="Utilities\" />
   </ItemGroup>
 </Project>
